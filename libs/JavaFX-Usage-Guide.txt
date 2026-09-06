@@ -1,0 +1,9 @@
+Linux/Mac
+
+//Paste on Terminal
+export PATH_TO_FX=path/to/javafx-sdk-26.0.2/lib
+
+//How to Compile
+javac --module-path $PATH_TO_FX --add-modules javafx.controls HelloFX.java
+
+set PATH_TO_FX="C:\Users\urbin\Desktop\OOP_Project\libs\openjfx-26.0.2_windows-x64_bin-sdk\javafx-sdk-26.0.2\lib"
